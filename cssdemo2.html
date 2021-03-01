@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+   <style>
+       #container {
+           display: flex;
+           flex-direction: row;
+       }
+
+       /* TODO:  add style to the parent div of number div to get numbers in the middle of the box */
+        #container{
+            display: flex;
+            justify-content: center;
+       }
+       
+       
+       .inner-container {
+            width: 15em;
+            height: 15em; 
+            border: blue 1px solid; 
+            margin: 1em;
+       }
+
+        /* TODO:  add style to the className 'number' to change the size, color of number */ 
+        .number{
+            color: blue;
+            font-size: 15px;
+        }
+
+   </style>
+
+   <body>
+       <div id="container">
+           <div class="inner-container">
+               <div class="number">1</div>
+            </div>
+           <div class="inner-container">
+                <div class="number">2</div>
+            </div>
+           <div class="inner-container">
+                <div class="number">3</div>
+            </div>
+           <div class="inner-container">
+                <div class="number">4</div>
+            </div>
+       </div>
+   
+   </body>
+
+</html>
